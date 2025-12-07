@@ -2,7 +2,7 @@
 import React from 'react';
 import expertpixel from "./assets/expertpixel.jpg";
 import portfolioImage from "./assets/portfolio.JPG";
-import curdapp from "./assets/curdapp.JPG"; 
+import crudapp from "./assets/curdapp.JPG"; 
 
 const ProjectsSection = () => {
 

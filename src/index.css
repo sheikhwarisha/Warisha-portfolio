@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .blob {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle at 30% 30%, #ec4899, #8b5cf6);
+    opacity: 0.3;
+    filter: blur(80px);
+    border-radius: 50%;
+    animation: blobMove 20s ease-in-out infinite;
+    mix-blend-mode: screen;
+  }
+
+  @keyframes blobMove {
+    0%, 100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+    50% {
+      transform: translate(100px, 150px) scale(1.2);
+    }
+  }
+}
+

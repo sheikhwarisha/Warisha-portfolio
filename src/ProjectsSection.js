@@ -23,10 +23,10 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      title: "Curd App",
-      image: curdapp,
+      title: "Crud App",
+      image: crudapp,
       link: "https://curdappppp.netlify.app/",
-      description: "Curd App With Firebase.",
+      description: "Crud App With Firebase.",
     },
   ];
 
